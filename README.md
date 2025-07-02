@@ -48,7 +48,7 @@
 - **Bootstrap 5.3** - самая новая версия фреймворка
 - **Bootstrap Icons** - векторные иконки
 - **Google Fonts** - шрифт Inter для лучшей читаемости
-- **EO TranslatorJS** - библиотека для перевода текста на английский
+- **TranslationService** (LibreTranslate, Lingva, MyMemory) — многоисточниковая система для перевода текста на английский с автоматическим fallback
 
 ## Особенности транслитерации
 
@@ -80,10 +80,12 @@
 ```
 bootstrap5/
 ├── css/
-│   └── style.css          # Расширенные стили
+│   └── style-refactored.css   # Расширенные стили
 ├── js/
 │   ├── script.js          # Основная логика приложения
-│   └── eo-translator.js   # Библиотека для перевода текста
+│   ├── translation-service.js # Многоисточниковый перевод с fallback
+│   ├── libretranslate.js      # Обёртка для LibreTranslate API
+│   └── js-google-translate-free.js # Обёртка для Google Translate (CDN)
 ├── images/                # Изображения и ресурсы
 ├── index.html            # Главная страница
 └── README.md             # Документация
