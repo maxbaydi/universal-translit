@@ -141,7 +141,7 @@ bootstrap5/
 ### Разница в правилах:
 ```
 Вход: "Общие вопросы"
-Яндекс: "obshchie-voprosy"  (щ → shh)
+Яндекс: "obshhie-voprosy"  (щ → shh)
 Google: "obshchie-voprosy"  (щ → shch)
 ```
 
